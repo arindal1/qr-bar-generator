@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel = "icon" href = "images/icon.png" type = "image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QR Code Generator</title>
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <!--- QR Code CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <input type="text" id="userInput" placeholder="Enter some text or URL" />
+      <div class="options">
+        <select class="sizeOptions">
+          <option value="100" selected>100 x 100</option>
+          <option value="200">200 x 200</option>
+          <option value="300">300 x 300</option>
+        </select>
+        <input type="color" id="BGColor" class="color-inp" />
+        <input type="color" id="FGColor" class="color-inp" />
+      </div>
+      <div class="box">
+        <button id="submit" disabled>Generate</button>
+        <a href="#" id="download">Download</a>
+      </div>
+      <div class="container"></div>
+    </div>
+    <div class="home">
+      <a href="#" class="icon"><img src="images/home.png" alt="home"></a>
+  </div>
+  <div class="footer">
+      <div class="icons">
+        <a href="https://twitter.com/arindal_17" target="_blank" class="icon" id="icon1"><img src="images/x.jpg" alt="Icon 1"></a>
+        <a href="https://github.com/arindal1" target="_blank" class="icon" id="icon2"><img src="images/git.jpg" alt="Icon 2"></a>
+        <a href="https://www.linkedin.com/in/arindalchar" target="_blank" class="icon" id="icon3"><img src="images/in.jpg" alt="Icon 3"></a>
+      </div>
+      <p>&lt; QuickResponse Code Generator by Arindal Char @ 2024 &gt;</p>
+    </div>
+    <!-- Script -->
+    <script src="script.js"></script>
+  </body>
+</html>
