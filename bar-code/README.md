@@ -26,7 +26,7 @@ Overall, this application allows users to input text, click a button, and genera
 
 ### About Barcode
 
-A barcode or bar code is a method of representing data in a visual, machine-readable form. Initially, barcodes represented data by varying the widths, spacings and sizes of parallel lines. These barcodes, now commonly referred to as linear or one-dimensional (1D), can be scanned by special optical scanners, called barcode readers, of which there are several types. <br>
-[wiki](https://en.wikipedia.org/wiki/Barcode)
+A barcode or bar code is a method of representing data in a visual, machine-readable form. Initially, barcodes represented data by varying the widths, spacings and sizes of parallel lines. These barcodes, now commonly referred to as linear or one-dimensional (1D), can be scanned by special optical scanners, called barcode readers, of which there are several types. 
+[[wiki](https://en.wikipedia.org/wiki/Barcode)]
 
-[web app]()
+<[web app]()>
